@@ -1,0 +1,42 @@
+.wrapper-one-movie {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.content-one-movie {
+  width: 550px;
+  color: #e5e5e5;
+  box-shadow: 0px 0px 20px #d81f26;
+  border-radius: 6px;
+  padding: 26px;
+}
+
+.content-one-movie h2,
+p {
+  margin: 30px;
+}
+
+.content-one-movie img {
+  width: 283px;
+  height: 160px;
+}
+
+.content-one-movie .slider-button {
+  font-size: 50px;
+  margin: 25px 15px 0px 15px;
+  fill: #7d040b;
+  cursor: pointer;
+}
+
+.content-one-movie .slider-button:hover {
+  fill: #d81f26;
+}
+
+.content-one-movie button {
+  border: none;
+}

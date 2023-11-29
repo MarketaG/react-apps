@@ -1,0 +1,14 @@
+.reload-movie-button {
+  color: white;
+  background-color: #e50914;
+  border: none;
+  font-size: 18px;
+  padding: 7px 14px;
+  cursor: pointer;
+  margin-left: 20px;
+  border-radius: 6px;
+}
+
+.reload-movie-button:hover {
+  background-color: #7d040b;
+}

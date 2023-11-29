@@ -1,0 +1,70 @@
+.useref-wrapper h1 {
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.useref-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.useref-form label {
+  margin-bottom: -25px;
+  margin-left: -45px;
+  display: flex;
+
+}
+
+.useref-form input[type="text"] {
+  padding: 7px;
+  margin-bottom: 20px;
+  font-size: 17px;
+  text-align: center;
+  border: 1px solid white;
+  outline: none;
+  cursor: text;
+}
+
+.useref-form input[type="email"] {
+  padding: 7px;
+  margin-bottom: 20px;
+  font-size: 17px;
+  text-align: center;
+  border: 1px solid white;
+  outline: none;
+}
+
+.useref-form input[type="submit"],
+.useref-form input[type="button"] {
+  background-color: #e50914;
+  color: #e5e5e5;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 10px;
+  margin-bottom: 30px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.useref-form label {
+  padding-right: 205px;
+}
+
+.useref-form a {
+  margin-left: 10px;
+  margin-top: -10px;
+  text-decoration: none;
+
+}
+
+@media(max-width:400px) {
+  .useref-wrapper h1 {
+    font-size: 20px;
+  }
+}
