@@ -21,7 +21,7 @@ const Footer = () => {
         <div className="footer-col">
           <h4>Kontakt</h4>
           <div>
-            <Link to="/"><AiFillGithub className="footer-icons" /></Link>
+            <Link to="https://github.com/MarketaG/react-apps/tree/main/react-workout-I" target="_blank"><AiFillGithub className="footer-icons" /></Link>
             <Link to="/"><AiFillLinkedin className="footer-icons" /></Link>
           </div>
         </div>
